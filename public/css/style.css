@@ -1,0 +1,99 @@
+/* body {
+    background-color: lightgrey;
+} */
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    height: 5rem;
+    background-color: aliceblue;
+}
+
+.fa-compass {
+    color: lightcoral;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222 !important;
+}
+
+/* Footer styling */
+.f-info-links:hover {
+    text-decoration: underline;
+    color: #222;
+}
+
+.f-info-links {
+    width: 100%;
+    text-decoration: none;
+}
+.f-info-socials {
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.f-info {
+    text-align: center;
+    height: 8rem;
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* Card listing styling */
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+.card-text {
+    font-weight: 400;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+.card-img-overlay {
+    opacity: 0;
+}
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* show listing styling */
+.listing-image {
+    height: 40vh;
+    width: 80vh;
+    border-radius: 1rem;
+}
+
+/* New page add button style */
+.add-btn {
+    background-color: #eb5b5b !important;
+    border: none !important;
+}
+
+.edit-btn {
+    background-color: #eb5b5b !important;
+    border: none !important;
+}
+
+.btns {
+    display: flex;
+}
