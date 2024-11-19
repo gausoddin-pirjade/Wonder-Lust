@@ -8,10 +8,10 @@ const listingSchema = mongoose.Schema({
     },
     description : String,
     image : {
-        default:"https://unsplash.com/photos/a-white-house-with-a-red-tiled-roof-o-nn2Mn4Jlg",
+        default:"https://images.unsplash.com/photo-1470165301023-58dab8118cc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxvZGdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
         type : String,
         set: (v) => v === ""
-         ? "https://unsplash.com/photos/a-white-house-with-a-red-tiled-roof-o-nn2Mn4Jlg"
+         ? "https://images.unsplash.com/photo-1470165301023-58dab8118cc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxvZGdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60"
           : v,
     },
     price : Number,
